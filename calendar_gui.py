@@ -28,7 +28,7 @@ if __name__ == "__main__":
     guiWindow.title("GUI Calendar")
     guiWindow.geometry('500x550')
     guiWindow.resizable(0, 0)
-    guiWindow.configure()
+    #guiWindow.configure()
 
     header_frame = Frame(guiWindow)
     entry_frame = Frame(guiWindow)
