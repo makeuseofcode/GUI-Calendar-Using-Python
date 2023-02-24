@@ -28,7 +28,6 @@ if __name__ == "__main__":
     guiWindow.title("GUI Calendar")
     guiWindow.geometry('500x550')
     guiWindow.resizable(0, 0)
-    #guiWindow.configure()
 
     header_frame = Frame(guiWindow)
     entry_frame = Frame(guiWindow)
@@ -57,7 +56,7 @@ if __name__ == "__main__":
     month_box.place(x=130, y=5)
     year_box.place(x=360, y=5)
 
-    calendar_field = Text(result_frame, width=20, height=8, font=("consolas", "18"), relief=RIDGE, borderwidth=2)
+    calendar_field = Text(result_frame, width=20, height=8, font=("courier", "18"), relief=RIDGE, borderwidth=2)
     calendar_field.pack()
     display_button = Button(button_frame, text="DISPLAY", bg="#A020F0", fg="#E0FFFF", command=printCalendar, font=('arial', '15'))
     reset_button = Button(button_frame, text="RESET", bg="#A020F0", fg="#E0FFFF", command=reset, font=('arial','15'))
